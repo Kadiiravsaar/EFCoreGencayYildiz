@@ -1,0 +1,60 @@
+﻿
+DataBase Firs için Scaffold-DbContext kullanılır. 
+
+Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore. [ Provider ]
+
+					indirilmesi gerekenler
+Microsoft.EntityFrameworkCore.Tools 
+Database.Provider (Microsoft.EntityFrameworkCore.SqlServer)
+   
+Örnek Gösterim =>
+Scaffold-DbContext 
+'Server=DESKTOP-G34LNC7;Database=RentaCar;Trusted_Connection=true;
+TrustServerCertificate=True;' 
+Microsoft.EntityFrameworkCore.SqlServer 
+
+	
+							Tabloları belirleme
+
+Kullanım şekli =>
+
+Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore. [ Provider ] -Tables Table 1, Table 2
+
+
+
+Kullanım Örneği => 
+
+Scaffold-DbContext 'Server=DESKTOP-G34LNC7;Database=RentaCar;Trusted_Connection=true;TrustServerCertificate=True;' Microsoft.EntityFrameworkCore.SqlServer -Tables Cars
+
+
+Context nesnesinin adını değiştirmek istersek =>
+
+Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore. [ Provider ] -Context ContextName
+
+
+Kullanım =>
+
+Scaffold-DbContext 'Server=DESKTOP-G34LNC7;Database=RentaCar;Trusted_Connection=true;TrustServerCertificate=True;' Microsoft.EntityFrameworkCore.SqlServer -Context kadirContext
+
+
+Path Belirleme
+
+Scaffold-DbContext 'Server=DESKTOP-G34LNC7;Database=RentaCar;Trusted_Connection=true;TrustServerCertificate=True;' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data, OutputDir Model
+
+
+Kullanım şekli =>
+
+Model adında belirtilen yere classlar yani entityler gelir
+Context dediğimiz yere de o klasörün altına context nesnesi gelir
+PM> Scaffold-DbContext 'Server=DESKTOP-G34LNC7;Database=RentaCar;Trusted_Connection=true;TrustServerCertificate=True;' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Contexts -OutputDir Models
+
+
+															Model Güncelleme
+
+Force kelimesi anahtardır.
+
+var olsalar dahi önceki çalışmalar ezilir ve güncellenir
+PM> Scaffold-DbContext 'Server=DESKTOP-G34LNC7;Database=RentaCar;Trusted_Connection=true;TrustServerCertificate=True;' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Contexts -OutputDir Models -Force
+
+Son 10 dakika bidaha bak.
+Partial Classlar etkendir.
