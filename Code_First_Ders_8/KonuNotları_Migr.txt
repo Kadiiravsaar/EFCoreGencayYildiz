@@ -1,0 +1,24 @@
+﻿Migration oluşturma Migrat => Göç ettirme demektir
+
+add-migration mig_1
+
+
+Migration path belirleme
+
+add-migration mig_1 -OutputDir migs => migs klasörüne oluşturur
+
+
+Migration Silme
+
+remove-migration 
+
+
+Migration Migrate etme (Göç Ettirme)
+
+update-database
+
+
+Migration Geri alma
+
+update-database migration_adı (verilen ada kadar geri alır)
+
