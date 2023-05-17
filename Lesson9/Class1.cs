@@ -15,7 +15,7 @@ public class ETicaret : DbContext
 
 public class Urun
 {
-    public int Id { get; set; }
+    public int Id { get; set; } // ıd olmayan bir entity hata fırlatır
     public string UrunAdi { get; set; }
     public decimal UrunFiyati { get; set; }
 
