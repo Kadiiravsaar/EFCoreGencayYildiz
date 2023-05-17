@@ -7,10 +7,10 @@ public class ETicaret : DbContext
     {
         optionsBuilder.UseSqlServer("Server=DESKTOP-G34LNC7;Database=ETicaret;Trusted_Connection=true;TrustServerCertificate=True;");
 
-
+    }
         public DbSet<Urun> Uruns { get; set; }
 }
-}
+
 
 
 public class Urun
