@@ -54,6 +54,7 @@ EticaretDbContext context = new EticaretDbContext();
 
 #endregion
 Console.WriteLine();
+// Scaffold-DbContext 'Server=DESKTOP-G34LNC7;Database=ETicaretDb;Trusted_Connection=true;TrustServerCertificate=True;' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Contexts -OutputDir Models
 
 
 
