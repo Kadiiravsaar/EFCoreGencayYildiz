@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "The_Data_Update_11", "The_D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Querying_13_2", "Querying_13_2\Querying_13_2.csproj", "{6B234286-4D6D-421F-BA29-B7F01F07EB44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Querying_!5", "Querying_!5\Querying_!5.csproj", "{5280D807-E018-4ABB-86E4-2AD22219DE26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Querying_!5", "Querying_!5\Querying_!5.csproj", "{5280D807-E018-4ABB-86E4-2AD22219DE26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Querying_17", "Querying_17\Querying_17.csproj", "{4C46FF9F-EB1A-403B-BCB3-15385872F38B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Querying_18_Gruopby", "Querying_18_Gruopby\Querying_18_Gruopby.csproj", "{C31678D0-DBC8-456C-9C85-8E4D028C24B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{5280D807-E018-4ABB-86E4-2AD22219DE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5280D807-E018-4ABB-86E4-2AD22219DE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5280D807-E018-4ABB-86E4-2AD22219DE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C46FF9F-EB1A-403B-BCB3-15385872F38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C46FF9F-EB1A-403B-BCB3-15385872F38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C46FF9F-EB1A-403B-BCB3-15385872F38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C46FF9F-EB1A-403B-BCB3-15385872F38B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31678D0-DBC8-456C-9C85-8E4D028C24B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31678D0-DBC8-456C-9C85-8E4D028C24B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31678D0-DBC8-456C-9C85-8E4D028C24B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31678D0-DBC8-456C-9C85-8E4D028C24B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
