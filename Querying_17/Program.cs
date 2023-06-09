@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
 using Querying_17.Contexts;
 using Querying_17.Models;
 
@@ -13,7 +14,6 @@ EticaretDbContext context = new EticaretDbContext();
 //var resul = context.Urunlers.ToDictionary(x => x.UrunAdi, x => x.Fiyat > 150);
 //Console.WriteLine();
 #endregion
-
 
 #region Select
 // işlevsel olarak birden fazla davranışı vardr
@@ -42,12 +42,22 @@ EticaretDbContext context = new EticaretDbContext();
 
 #endregion
 
-
 #endregion
 
 
 
-#region SelectMany  Sonra izle yaz
+#region SelectMany
+// ilişkisel verilerde kullanılır
+
+// parçalar ile her bir ününün içindeki parçaların değerini getirmek istersek select ile
+// yapamayız çünkü parçaların nesnesini getiremeyiz.
+
+var result = context.Urunlers.Include(x=>x.Parcalars).SelectMany(x=>x.Parcalars, (x,p)=> new
+{
+    x.Id,
+    x.Fiyat,
+    x.Parcalars
+}).ToList();
 
 #endregion
 
