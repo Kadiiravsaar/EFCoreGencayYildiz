@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Querying_17", "Querying_17\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Querying_18_Gruopby", "Querying_18_Gruopby\Querying_18_Gruopby.csproj", "{C31678D0-DBC8-456C-9C85-8E4D028C24B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeTrackerOrj", "ChangeTrackerOrj\ChangeTrackerOrj.csproj", "{B7471EAD-4E91-4C39-B892-485CE8EED103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeTrackerOrj", "ChangeTrackerOrj\ChangeTrackerOrj.csproj", "{B7471EAD-4E91-4C39-B892-485CE8EED103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relationshpis", "Relationshpis\Relationshpis.csproj", "{F745338B-801D-44DD-A3BB-3C8E98FD9A52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{B7471EAD-4E91-4C39-B892-485CE8EED103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7471EAD-4E91-4C39-B892-485CE8EED103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7471EAD-4E91-4C39-B892-485CE8EED103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F745338B-801D-44DD-A3BB-3C8E98FD9A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F745338B-801D-44DD-A3BB-3C8E98FD9A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F745338B-801D-44DD-A3BB-3C8E98FD9A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F745338B-801D-44DD-A3BB-3C8E98FD9A52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
