@@ -30,22 +30,52 @@
 
 #endregion
 
-class Calisan
-{
-    public int Id { get; set; }
-    public string Adi { get; set; }
-    public int DepartmanId { get; set; } // bu Foreign key dir
-}
-class Departman
-{
-    public int Id { get; set; } // Principal Key budur
-    public string DepartmanAdi { get; set; }
-
-}
-
 #region Principal Key
 
 //Principal entityde ki Id'nin ta kendisidir
 
 
+#endregion
+
+
+class Calisan
+{
+    public int Id { get; set; }
+    public string Adi { get; set; }
+    public int DepartmanId { get; set; } // bu Foreign key dir
+
+    public Departman Departman { get; set; } // Navigation prop
+}
+
+// bu ikisi arasında hangi ilişki var önce kendin tahmin et bul sonra kontrol et ders 21 dakika 17.20
+class Departman
+{
+    public int Id { get; set; } // Principal Key budur
+    public string DepartmanAdi { get; set; }
+
+    public ICollection<Calisan> Calisanlar { get; set; } // Navigation prop
+
+}
+
+#region Navigation Prop nedir
+
+// İlişkisel tablolar arasındaki fiziksel erişimin enty classları üzerinden sağlayan proplardır
+
+// bir prop'un Navigation prop olabilmesi için kesinlikle entity türünden olması gereklidir
+
+
+#endregion
+
+#region İlişki Türleri
+#region One to One
+
+#endregion
+
+#region One to Many
+
+#endregion
+
+#region Many to Many
+
+#endregion
 #endregion
