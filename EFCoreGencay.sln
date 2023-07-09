@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Querying_18_Gruopby", "Quer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeTrackerOrj", "ChangeTrackerOrj\ChangeTrackerOrj.csproj", "{B7471EAD-4E91-4C39-B892-485CE8EED103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Relationshpis", "Relationshpis\Relationshpis.csproj", "{F745338B-801D-44DD-A3BB-3C8E98FD9A52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relationshpis", "Relationshpis\Relationshpis.csproj", "{F745338B-801D-44DD-A3BB-3C8E98FD9A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One_to_One_Relationship", "One_to_One_Relationship\One_to_One_Relationship.csproj", "{2C9D354A-BFA0-44D2-94D7-86BF16D1EABF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{F745338B-801D-44DD-A3BB-3C8E98FD9A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F745338B-801D-44DD-A3BB-3C8E98FD9A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F745338B-801D-44DD-A3BB-3C8E98FD9A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9D354A-BFA0-44D2-94D7-86BF16D1EABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9D354A-BFA0-44D2-94D7-86BF16D1EABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9D354A-BFA0-44D2-94D7-86BF16D1EABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9D354A-BFA0-44D2-94D7-86BF16D1EABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
