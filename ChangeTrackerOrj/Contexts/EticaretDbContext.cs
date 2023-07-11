@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using ChangeTrackerOrj.Models;
+﻿using ChangeTrackerOrj.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ChangeTrackerOrj.Contexts;

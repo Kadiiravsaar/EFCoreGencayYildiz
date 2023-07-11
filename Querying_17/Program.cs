@@ -1,7 +1,6 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 using Querying_17.Contexts;
-using Querying_17.Models;
 
 EticaretDbContext context = new EticaretDbContext();
 
@@ -52,7 +51,7 @@ EticaretDbContext context = new EticaretDbContext();
 // parçalar ile her bir ününün içindeki parçaların değerini getirmek istersek select ile
 // yapamayız çünkü parçaların nesnesini getiremeyiz.
 
-var result = context.Urunlers.Include(x=>x.Parcalars).SelectMany(x=>x.Parcalars, (x,p)=> new
+var result = context.Urunlers.Include(x => x.Parcalars).SelectMany(x => x.Parcalars, (x, p) => new
 {
     x.Id,
     x.Fiyat,

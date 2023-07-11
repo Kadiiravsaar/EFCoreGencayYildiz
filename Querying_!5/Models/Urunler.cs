@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Querying__5.Models;
+﻿namespace Querying__5.Models;
 
 public partial class Urunler
 {

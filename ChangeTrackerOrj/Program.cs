@@ -1,5 +1,4 @@
 ﻿using ChangeTrackerOrj.Contexts;
-using ChangeTrackerOrj.Models;
 
 EticaretDbContext context = new EticaretDbContext();
 

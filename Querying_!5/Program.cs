@@ -1,5 +1,4 @@
 ﻿using Querying__5.Contexts;
-using Querying__5.Models;
 
 EticaretDbContext context = new EticaretDbContext();
 

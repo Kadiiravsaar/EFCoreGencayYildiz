@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Querying_18_Gruopby.Models;
 
 namespace Querying_18_Gruopby.Contexts;

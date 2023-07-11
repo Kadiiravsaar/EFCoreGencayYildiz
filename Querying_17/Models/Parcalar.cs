@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Querying_17.Models;
+﻿namespace Querying_17.Models;
 
 public partial class Parcalar
 {

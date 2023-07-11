@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Querying_18_Gruopby.Models;
+﻿namespace Querying_18_Gruopby.Models;
 
 public partial class Urunler
 {

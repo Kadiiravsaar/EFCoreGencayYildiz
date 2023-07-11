@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Querying_13_2;
-using System.Runtime.Serialization.Formatters;
+﻿using Querying_13_2;
 #region Ürün Ekleme Algoritması
 //int sayac = 3;
 //int _Fiyat = 10;
@@ -64,7 +62,7 @@ ETicarettContext context = new ETicarettContext();
 // ThenBy => order by da yapılan işlemleri farklı kolonlarda da yapmamızı sağlar
 
 
-var urunler = context.Urunler.Where(u => u.Id<15).OrderBy(u => u.UrunAdi).ThenBy(u=>u.Fiyat).ToList(); 
+var urunler = context.Urunler.Where(u => u.Id < 15).OrderBy(u => u.UrunAdi).ThenBy(u => u.Fiyat).ToList();
 // eğer urunadında aynı şeyler varsa fiyata göre de sırala demiş olduk
 
 #endregion

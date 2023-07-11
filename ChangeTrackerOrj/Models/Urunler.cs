@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ChangeTrackerOrj.Models;
+﻿namespace ChangeTrackerOrj.Models;
 
 public partial class Urunler
 {
