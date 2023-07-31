@@ -14,7 +14,7 @@ class ESirketMany : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=DESKTOP-G34LNC7;Database=ESirketmanytomanyDb;Trusted_Connection=true;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=DESKTOP-G34LNC7;Database=ESirketManyToManyDb;Trusted_Connection=true;TrustServerCertificate=True;");
 
 
     }
