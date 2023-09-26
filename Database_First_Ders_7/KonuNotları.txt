@@ -2,9 +2,11 @@
 DataBase Firs için Scaffold-DbContext kullanılır. 
 
 Scaffold-DbContext 'Connection String' Microsoft.EntityFrameworkCore. [ Provider ]
+Provider => sağlayıcı
 
 					indirilmesi gerekenler
 Microsoft.EntityFrameworkCore.Tools 
+
 Database.Provider (Microsoft.EntityFrameworkCore.SqlServer)
    
 Örnek Gösterim =>
